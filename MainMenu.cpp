@@ -111,7 +111,7 @@ void main_menu()
 						List = fill_container(fi);
 						cout << "Контейнер заполнен элементами из указанного файла." << endl;
 					}
-
+					fi.close();
 				}
 				break;
 			}
